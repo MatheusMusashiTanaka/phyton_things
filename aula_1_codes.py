@@ -49,3 +49,21 @@ while numero != 0:
         print("tente novamente")
         numero = int(input("digite um numero de 1 a 10 (digite 0 para parar): "))
     
+____________________________________________________________________
+
+numero = int(input("numero: "))
+
+for i in range(0, numero + 1 ):
+    print(i)
+_______________________________________________________________________
+
+
+nome = (input("digite nome: "))
+letra_escolhida = (input("digite uma letra: "))
+for letra in nome:
+    print(letra)
+    if letra== letra_escolhida:
+        break
+       
+    
+_________________________________________________________________________
