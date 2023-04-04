@@ -29,6 +29,7 @@ continue
 break
 
 
+range ( start, break)
 ____________________________________________________________________
 chat gpt - [:: -1], it is a slicing syntax used to reverse a sequence (e.g., a list, tuple, or string). 
 The three parts of the syntax are start:stop:step. By setting step to -1, the slicing starts from the end and goes backwards.
