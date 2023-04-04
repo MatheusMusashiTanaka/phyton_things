@@ -20,6 +20,14 @@ type()
 
 string formatada ->  f"jorge{sobrenome}"
 
+while TRUE
+
+pass
+
+continue
+
+break
+
 
 ____________________________________________________________________
 chat gpt - [:: -1], it is a slicing syntax used to reverse a sequence (e.g., a list, tuple, or string). 
