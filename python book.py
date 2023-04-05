@@ -15,3 +15,66 @@ if chuva == 1:
                 print("espere mais")
 else:
     print(saia)
+-----------------------------------------
+import random
+
+vitorias = 0
+derrotas = 0
+empates = 0
+
+def cancelar(player):
+    if player == "0":
+        return True
+    else:
+        return False
+
+while True:
+    player = input("(p)edra, (pa)pel, (t)esoura, or (0) to cancel: ")
+    
+    if cancelar(player):
+        break
+    
+    numero = random.randint(1, 3)
+
+    if numero == 1:
+        escolha = "pedra"
+    elif numero == 2:
+        escolha = "papel"
+    else:
+        escolha = "tesoura"
+        
+    if player == "p":
+        if escolha == "pedra":
+            print("Empate")
+            empates += 1
+        elif escolha == "papel":
+            print('Derrota')
+            derrotas += 1
+        else:
+            print('Vitoria')
+            vitorias += 1
+            
+    elif player == "pa":
+        if escolha == "pedra":
+            print("Vitoria")
+            vitorias += 1
+        elif escolha == "papel":
+            print('Empate')
+            empates += 1
+        else:
+            print('Derrota')
+            derrotas += 1
+            
+    elif player == "t":
+        if escolha == "pedra":
+            print("Derrota")
+            derrotas += 1
+        elif escolha == "papel":
+            print("Vitoria")
+            vitorias += 1
+        else:
+            print("Empate")
+            empates += 1
+    
+    resultado = f"{vitorias},{derrotas},{empates}"
+    print(resultado)
