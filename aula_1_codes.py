@@ -67,3 +67,21 @@ for letra in nome:
        
     
 _________________________________________________________________________
+
+nome = input("digite seu nome: ")
+
+nome_CA = str(nome).upper()
+
+Nomes = nome.split(" ")
+
+letra_1 = str.lower(Nomes[0] [0:3])
+
+letra_2 = str.lower(Nomes[-1] [0:4])
+
+usuario = (f"{letra_1}.{letra_2}")
+
+def argumento():
+    print(nome_CA)
+    print(f"{usuario}@empresa.com.br")
+    return
+argumento()
