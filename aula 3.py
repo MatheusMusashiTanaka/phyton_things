@@ -91,6 +91,15 @@ while True:
 print(soma)
 ________________________________________
 #tarefa 14
+div = 0
+sum = 0
+Med = 0
+while True:
+    num = int(input("Numero: "))
+    sum+=num
+    div+=1
+    Med = (sum)/div
+    print(f'Media: {Med}')
 ________________________________________
 #tarefa 15
 
@@ -102,6 +111,17 @@ while True:
     soma += numero
 print(soma)
 _________________________________________
+#tarefa 16
+num = 0
+sum = 0
+while num >= 0:
+    num = int(input("Numero(digite numero negativo para parar): "))
+    
+    if (num%2) == 0:
+        sum+=num
+    
+print(sum)
+______________________________________________
  #tarefa 17
   soma = 0
 i=1
@@ -125,5 +145,73 @@ while i > 0:
 print (divisores)
 _______________________________________
 #19
+
+num = 0
+sum = 0
+while num >= 0:
+    num = int(input("Numero(digite numero negativo para parar): "))
+    
+    if (num%2) == 0:
+        sum+=1
+    
+print(f'foram digitados: {sum}')
+_____________________________________________________________________
+#tarefa 20
+num = 0
+par = 0
+total = 0
+while num >= 0:
+    num = int(input("Numero(digite numero negativo para parar): "))
+    
+    if (num%2) == 0:
+        par+=1
+    if num >= 0:
+        total+=1
+print(f'A quantidade de pares foi de {(par/total)*100}%')
+_________________________________________________
+    #tarefa 21
+    num = 0
+par = 0
+total = 0
+while num >= 0:
+    num = int(input("Numero(digite numero negativo para parar): "))
+    
+    if (num%2) == 0:
+        par+=1
+    if num >= 0:
+        total+=1
+print(f'A quantidade de pares foi de {(par/total)*100}%')
+_________________________________________________________
+#22
+_________________________________________________________
+#23
+_______________________________________________________
+#24
+
+num = 0
+
+i=1
+
+while i<=7:
+    num = int(input("Digite temperatura ºC: "))
+    if i == 1:
+        menor = num
+    if num<menor:
+        menor = num
+    i+=1
+print(f'A menor temperatura da semana foi {menor}ºC')
+
+ou
+
+num = 0
+menor = float('inf')
+i=1
+
+while i<=7:
+    num = int(input("Digite temperatura ºC: "))
+    if num<menor:
+        menor = num
+    i+=1
+print(f'A menor temperatura da semana foi {menor}ºC')
 
 
