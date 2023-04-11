@@ -183,8 +183,30 @@ while num >= 0:
 print(f'A quantidade de pares foi de {(par/total)*100}%')
 _________________________________________________________
 #22
+
+max = float('-inf')
+i=1
+while i<=5:
+    num = int(input(f'numero {i}: '))
+    if num>max:
+        max = num
+    i+=1
+print(f'o maior valor foi : {max}') 
+
+
 _________________________________________________________
 #23
+max = float('-inf')
+i=1
+while i<=5:
+    num = int(input(f'nota {i}: '))
+    if num < 0 or num > 10:
+        raise ValueError("Nota deve ser entre 10 e 0")
+    if num>max:
+        max = num
+    i+=1
+
+print(f'o maior valor foi : {max}') 
 _______________________________________________________
 #24
 
@@ -213,5 +235,29 @@ while i<=7:
         menor = num
     i+=1
 print(f'A menor temperatura da semana foi {menor}ºC')
+_________________________________________________________
+#25
+_________________________________________________________
+#26
+_________________________________________________________
+#27
+i=1
+for i in range (1,11):
+    for mult in range (1,11):
+        print(f'{i} x {mult} = {i*mult}')
+____________________________________________________________
+#28
+i = 1
+while True:
+    num = int(input(f"Numero {i}: "))
+    i += 1
+    div = num
+    while div > 0:
+        if num % div == 0:
+            print(f"o {num} é divisivel por {div}")
+        div -= 1
+    if num<0:
+        break
+    
 
 
