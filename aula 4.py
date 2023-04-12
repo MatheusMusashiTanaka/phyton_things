@@ -6,3 +6,7 @@ while True:
     if letra == " " :
         break
 print(f'Você escreveu: {palavra}')
+
+palavra = str(input("frase: "))
+conv = palavra.replace(" ", "")
+print (conv)
