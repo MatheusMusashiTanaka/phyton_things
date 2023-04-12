@@ -1,3 +1,6 @@
+#tarefa 1
+_________________________________________________________________________________
+#tarefa 2
 palavra = ''
 
 while True:
@@ -5,8 +8,9 @@ while True:
     palavra += letra
     if letra == " " :
         break
- ________________________________________________________________________________
-_____________________________________________________
+_________________________________________________________________________________
+#tarefa 3
+_________________________________________________________________________________
 
 #tarefa 4 :
 
@@ -47,7 +51,7 @@ print(f'Você escreveu: {palavra}')
 palavra = str(input("frase: "))
 conv = palavra.replace(" ", "")
 print (conv)
-____________________________
+_________________________________________________________________________________
 #tarefa 7
 
 palavra = input("Frase : ")
@@ -57,9 +61,22 @@ for letra in palavra:
         sum += 1
 
 print(f'a frase que voce escreveu tem {sum} vogais.')
+_________________________________________________________________________________
+#tarefa 8
+palavra = input("Frase : ")
+sum = 0
+for letra in palavra:
+    if letra.lower() not in 'aeiou':
+        sum += 1
+
+print(f'a frase que voce escreveu tem {sum} consoantes.')
 
 
-
+_________________________________________________________________________________
+#tarefa 9 
+nom = input("Nome completo: ")
+nom_1 = nom.split(" ")
+print(f'Seu primeiro nome é {nom_1[0]}')
 
 _________________________________________________________________________________
 #tarefa 10 :
