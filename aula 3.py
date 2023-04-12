@@ -258,6 +258,39 @@ while True:
         div -= 1
     if num<0:
         break
+ ____________________________________________________________
+#29
+while True:
+    num = int(input("numero (digite numeros negativos para): "))
+    div=0
+    i = num
+    if num < 0:
+        break
+    while i <= num and i>0:
+        if num % i == 0:
+            div += 1
+        i-=1
+    if div<=2:
+        print("numero digitado é primo")
+    else:
+        print("numero digitado nao é primo")
+
+_______________________________________________________________
+#30
+sum = 0
+while True:
+    num = int(input("numero (digite numeros negativos para): "))
+    div=0
+    i = num
+    if num < 0:
+        break
+    while i <= num and i>0:
+        if num % i == 0:
+            div += 1
+        i-=1
+    if div<=2:
+        sum+=1
+print(f'voce digitou {sum} numeros primos.')
     
 
 
