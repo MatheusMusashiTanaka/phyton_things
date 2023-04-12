@@ -45,9 +45,6 @@ while True:
     print(f"a soma dos numeros digitados ate agora é {sum}")
 _________________________________________________________________________________
 #tarefa 6
-
-print(f'Você escreveu: {palavra}')
-
 palavra = str(input("frase: "))
 conv = palavra.replace(" ", "")
 print (conv)
