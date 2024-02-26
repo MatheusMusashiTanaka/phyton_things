@@ -1,0 +1,78 @@
+import turtle as tr
+
+lado = 4
+angulo = 360/lado
+for i in range(4):
+    tr.forward(100)
+    tr.left(angulo)
+
+tr.left(45)
+tr.forward(75)
+tr.left(45)
+tr.forward(100)
+for i in range(4):
+    tr.right(90)
+    tr.forward(100)
+    
+tr.right(90)
+tr.forward(100)
+tr.right(135)
+tr.forward(75)
+tr.left(45)
+tr.forward(100)
+
+tr.left(135)
+tr.forward(75)
+tr.left(135)
+tr.forward(100)
+
+tr.right(90)
+tr.forward(100)
+tr.left(135)
+tr.forward(75)
+
+
+tr.left(45)
+tr.penup()
+tr.forward(200)
+
+tr.right(90)
+tr.forward(100)
+tr.right(180)
+"""tr.right(45)
+tr.forward(100)
+tr.left(135)
+i=0"""
+
+
+
+tr.pendown()
+
+for i in range(4):
+    tr.forward(200)
+    tr.left(angulo)
+
+tr.left(45)
+tr.forward(150)
+tr.left(45)
+tr.forward(200)
+for i in range(4):
+    tr.right(90)
+    tr.forward(200)
+    
+tr.right(90)
+tr.forward(200)
+tr.right(135)
+tr.forward(150)
+tr.left(45)
+tr.forward(200)
+
+tr.left(135)
+tr.forward(150)
+tr.left(135)
+tr.forward(200)
+
+tr.right(90)
+tr.forward(200)
+tr.left(135)
+tr.forward(150)
